@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Толстенков  Филипп](https://up.htmlacademy.ru/htmlcss/26/user/1146019).Неизвестно
+* Студент: [Толстенков  Филипп](https://up.htmlacademy.ru/htmlcss/26/user/1146019).
 * Наставник: `Евгений Гусев`. (https://htmlacademy.ru/profile/id999795
 )
 ---
