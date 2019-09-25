@@ -5,52 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>студия Nerds</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии Nerds"></a>
-        <ul>
-          <li><a href="info.html">Студия</a></li>
-          <li><a href="clients.html">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <ul>
-          <li><a href="basket.html"><img src="img/basket-icon.svg" width="15" height="15" alt="Иконка корзины">Корзина</a></li>
-        </ul>
-      </nav>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo" href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии Nerds"></a>
+       <ul class="site-navigation">
+        <li><a href="info.html">Студия</a></li>
+        <li><a href="clients.html">Клиенты</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <ul class="basket">
+        <li><img src="img/basket-icon.svg" width="15" height="15" alt="Иконка корзины"><a   href="basket.html">Корзина</a></li>
+      </ul>
+    </nav>
         <h1>Магазин готовых шаблонов</h1>
   </header>
   <main>
-    <section>
+    <section class="price">
       <h2>СТОИМОСТЬ:</h2>
         <ul>
           <li><img src="img/slider.svg" width="368" height="204" alt="Слайдер"></li>
           <li></li>
         </ul>
     </section>
-    <section>
+    <section class="sorting">
       <h2>СОРТИРОВАТЬ:</h2>
         <ul>
           <li>ПО ЦЕНЕ</li>
           <li>ПО ТИПУ</li>
           <li>ПО НАЗВАНИЮ</li>
         </ul>
-          <button type="button"><img src="img/icon-down-dir.svg" width="11" height="10" alt="Кнопка вниз"/></button>
-          <button type="button"><img src="img/icon-up-dir.svg" width="11" height="10" alt="Кнопка вверх "/></button>
+          <button class="arrow-down" type="button"><img src="img/icon-down-dir.svg" width="11" height="10" alt="Кнопка вниз"/></button>
+          <button class="arrow-up" type="button"><img src="img/icon-up-dir.svg" width="11" height="10" alt="Кнопка вверх "/></button>
       </section>
-      <section>
+      <section class="parameters">
         <h2 hidden>СЕТКА:</h2>
           <form method="get" action="https://echo.htmlacademy.ru">
             <legend>СЕТКА:</legend>
             <ul>
               <li><input type="radio" name="adaptive-grid" id="filter-adaptive-grid" checked>
-                <label for="filter-adaptive-grid">Адаптивная</label></li>
+                <label for="filter-adaptive-site">Адаптивная</label></li>
               <li><input type="radio" name="fix-grid" id="filter-fix-grid">
-                <label for="filter-adaptive-grid">Фиксированная</label></li>
+                <label for="filter-adaptive-site">Фиксированная</label></li>
               <li><input type="radio" name="rubber-grid" id="filter-rubber-grid">
-                <label for="filter-adaptive-grid">Резиновая</label></li>
+                <label for="filter-adaptive-site">Резиновая</label></li>
             <!--<img src="img/radio-on.svg" width="25" height="25" alt="radio-on"/>Адаптивная</li>
             <li><img src="img/radio-off.svg" width="25" height="25" alt="radio-off"/>Фиксированная</li>
             <li><img src="img/radio-off.svg" width="25" height="25" alt="radio-off"/>Резиновая</li>-->
@@ -77,39 +80,58 @@
             <li><img src="img/checkbox-off.svg" width="23" height="23" alt="checkbox-off"/>корзина</li>-->
           </ul>
         </form>
-            <button type="button">Показать</button>
+            <button class="button-gray" type="button">Показать</button>
         </section>
-        <section>
-          <h2>Шаблоны</h2>
+        <section class="templates">
+          <h2 hidden>Шаблоны</h2>
             <ul>
-              <li><img src="img/browser.svg" width="360" height="40" alt="browser "/>
+              <li><img class="browser" src="img/browser.svg" width="360" height="40" alt="browser "/>
                   <a href="catalog-item"><img src="img/img-sedona-jpg.png" width="360" height="576" alt="сайт SEDONA "/></a></li>
-              <li><img src="img/browser.svg" width="360" height="40" alt="browser "/>
+              <li><img class="browser" src="img/browser.svg" width="360" height="40" alt="browser "/>
                 <a href="catalog-item"><img src="img/img-pink-jpg.png" width="360" height="576" alt="сайт PINK "/></a></li>
-              <li><img src="img/browser.svg" width="360" height="40" alt="browser "/>
+              <li><img class="browser" src="img/browser.svg" width="360" height="40" alt="browser "/>
                 <a href="catalog-item"><img src="img/img-barbershop-jpg.png" width="360" height="576" alt="сайт BORODINSKI "/></a></li>
-              <li><img src="img/browser.svg" width="360" height="40" alt="browser "/>
+              <li><img class="browser" src="img/browser.svg" width="360" height="40" alt="browser "/>
                 <a href="catalog-item"><img src="img/img-mishka-jpg.png" width="360" height="576" alt="сайт MISHKA "/></a></li>
-              <li><img src="img/browser.svg" width="360" height="40" alt="browser "/>
+              <li><img class="browser" src="img/browser.svg" width="360" height="40" alt="browser "/>
                 <a href="catalog-item"><img src="img/img-aplus-jpg.png" width="360" height="576" alt="сайт УЧЕБА "/></a></li>
-              <li><img src="img/browser.svg" width="360" height="40" alt="browser "/>
+              <li><img class="browser" src="img/browser.svg" width="360" height="40" alt="browser "/>
                 <a href="catalog-item"><img src="img/img-kvast-jpg.png" width="360" height="576" alt="сайт КВАСТ "/></a></li>
             </ul>
             <ul>
-              <li><a>1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">Следующая</a></li>
+              <li><a class="page-number">1</a></li>
+              <li><a class="page-number" href="#">2</a></li>
+              <li><a class="page-number" href="#">3</a></li>
+              <li><a class="next-page" href="#">Следующая</a></li>
             </ul>
         </section>
-        <section>
+        <section class="contacts">
           <h2 hidden>Наши контакты</h2>
             <h3>NERDS DISIGN STUDIO</h3>
               <ul>
                 <li>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</li>
                 <li>тел. +7(812)275-75-75</li>
               </ul>
-                <button type="button">Напишите нам</button>
+                <button class="button" type="button">Напишите нам</button>
+        </section>
+        <section class="fillform">
+          <h2>Напишите нам</h2>
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <p>
+              <label for="your-name">Ваше имя:</label>
+              <input id="your-name" type="text" name="name" value="" placeholder="Нёрд">
+            </p>
+            <p>
+              <label for="your-email">Ваш e-mail:</label>
+              <input id="your-email" type="text" name="email" value="" placeholder="email@example.com">
+            </p>
+            <p>
+              <label for="your-text">Текст письма:</label>
+              <textarea id="your-text" type="text" name="message" placeholder="В свободной форме" rows="5"></textarea>
+            </p>
+            <button class="button" type="submit">Отправить</button>
+            <button class="close-button" type="button"><img src="img/close-cross.svg" width="21" height="21" alt="Кнопка закрыть"></button>
+          </form>
         </section>
         <section>
           <h2 hidden>Карта</h2>
@@ -117,16 +139,17 @@
         </section>
     </main>
     <footer>
-        <div>
-          <ul>
-            <li><a href='#'><img src="img/vk-icon.png" width="26" height="15" alt="Иконка ВК">Вконтакте</a></li>
-            <li><a href='#'><img src="img/fb-icon.png" width="12" height="22" alt="Иконка ВК">Фейсбук</a></li>
-            <li><a href='#'><img src="img/insta-icon.png" width="21" height="21" alt="Иконка ВК">Инстаграм</a></li>
-          </ul>
-        </div>
-        <div>
-          <p>Давайте дружить, зто выгодно!<br>Скидка  10% для друзей из социальных сетей.</p>
-        </div>
-      </footer>
+      <div>
+        <ul>
+          <li><a href='#'><img src="img/vk-icon.png" width="26" height="15" alt="Иконка ВК"></a></li>
+          <li><a href='#'><img src="img/fb-icon.png" width="12" height="22" alt="Иконка ВК"></a></li>
+          <li><a href='#'><img src="img/insta-icon.png" width="21" height="21" alt="Иконка ВК"></a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Давайте дружить, это выгодно!</h3><br>
+        <p>Скидка  10% для друзей из социальных сетей.</p>
+      </div>
+    </footer>
 </body>
 </html>
