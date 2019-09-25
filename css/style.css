@@ -1,0 +1,525 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #000000;
+    
+    
+    background-color: #ffffff;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+a {
+    text-decoration: none;
+  }
+
+/*Хэдер*/
+
+.main-header-logo :hover{
+    opacity: 0.8;
+}
+
+.main-header-logo :active{
+    opacity: 0.3;
+}
+.main-navigation {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;  
+    color: #000000;
+    background-color: #eeeeee;
+  }
+
+.main-slider h2,
+.main-header h1{
+  font-size: 55px;
+}
+
+.site-navigation,
+.basket,
+.products li,
+.projects li,
+.contacts li,
+footer li {
+    list-style: none;
+  }
+.site-navigation, 
+.basket{
+    text-transform: uppercase;
+  }
+
+.site-navigation a,
+.basket a {
+    color: #ffffff;
+  }
+  
+.site-navigation a:hover,
+.basket a:hover{
+    color: #fb565a;
+}
+.site-navigation a:focus,
+.basket a:focus {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation a:active,
+.basket a:active {
+      color: #000000;
+      border-bottom: 2px solid  #fb565a;
+}
+
+/*.site-navigation a:visited,
+.basket a:visited {
+      color: #000000;
+      border-bottom: 2px solid  #fb565a;
+    }*/
+
+.main-slider,
+.main-header{
+    background-color: #eeeeee;
+  }
+
+.main-slider p,
+.products p,
+.about p,
+.contacts li{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #283136;
+}
+
+.products h2{
+  width: 166px;
+  height: 19px;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.about h3{
+  width: 650px;
+  height: 87px;
+  font-size: 45px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.about h4,
+.advantages p,
+.fillform p{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-weight: bold;
+  color: #000000;
+}
+
+.about li{
+  width: 361px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #283136;
+  list-style: none;
+}
+
+.advantages li{
+  list-style: none;
+  width: 361px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #283136;
+}
+
+.advantages li:first-child,
+li+.percent{
+  width: 650px;
+  height: 87px;
+  font-size: 45px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.projects li{
+  opacity: 0.2;
+}
+
+.projects li:hover{
+  opacity: 1.0;
+}
+
+.projects li:active{
+  opacity: 0.1;
+}
+
+.contacts h3
+.price h2{
+  width: 192px;
+  height: 17px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+/*Секция формы*/
+
+.fillform h2{
+  font-size: 45px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.fillform input,textarea{
+  border: solid 2px #d7dcde;
+  background-color: #ffffff;
+}
+
+.fillform input:hover,textarea:hover{
+  border: solid 2px #b4b9bb;
+  background-color: #ffffff;
+}
+
+.fillform input:focus,textarea:focus{
+  border: solid 2px #000000;
+  background-color: #ffffff;
+}
+
+.close-button{
+  background-color: #ffffff;
+  border: none;
+  opacity: 0.3;
+}
+
+.close-button:hover{
+  border: none;
+  opacity: 1;
+}
+
+.close-button:focus{
+  border: none;
+  opacity: 0.1;
+}
+
+/*Футер*/
+
+footer li a{
+  
+  background-color: #e1e1e1; width:60px; height:60px; border-radius:40px; display:block;
+  text-align:center;
+}
+
+footer li a:hover{
+  background-color: #e74246;
+}
+
+footer li a:focus{
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  background-color: #d7373b;
+  
+}
+footer img:focus{
+  opacity: 0.1;
+  object-fit: contain;
+  background-color: #d7373b;
+}
+footer h3{
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+footer p{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;}
+
+  /*Кнопки*/
+
+.button {
+    font: inherit;
+  
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+  
+    background-color: #fb565a;
+    border: none;
+  }
+
+.button-green{
+  font: inherit;
+  
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+  
+    background-color: #00ca74;
+    border: none;
+}
+
+.button-yellow{
+  font: inherit;
+  
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+  
+    background-color: #efc84a;
+    border: none;
+}
+.button:hover{
+    background-color: #e74246;
+}
+.button:focus {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+}
+
+.button-green:hover{
+  background-color: #00bc6c;
+}
+.button-green:focus {
+background-color: #00aa62;
+color: rgba(255, 255, 255, 0.3);
+box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+}
+
+.button-yellow:hover{
+  background-color: #eab534
+}
+.button-yellow:focus {
+background-color: #e5a722;
+color: rgba(255, 255, 255, 0.3);
+box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+}
+
+.button-gray{
+    font: inherit;
+  
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+  
+    background-color: #eeeeee;
+    border: none;
+}
+
+.button-gray:hover{
+  background-color: #dfdfdf;
+}
+.button-gray:focus {
+  background-color: #d5d5d5;
+  color: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+}
+
+
+
+/*Страница каталога*/
+
+/*Секция сортировки и стоимости*/
+
+.sorting h2,
+.price h2{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.sorting li{
+  opacity: 0.3;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+  list-style: none;
+}
+
+.sorting li:first-child{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.arrow-up,
+.arrow-down{
+  object-fit: contain;
+  background-color: #ffffff;
+  border:none;
+}
+
+.arrow-up{
+  object-fit: contain;
+  background-color: #ffffff;
+  border:none;
+  opacity: 0.2;
+}
+
+/*Секция параметров сайта*/
+
+.parameters legend{
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.parameters li{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #283136;
+  list-style: none;
+}
+
+/*Секция шаблонов*/
+
+.templates li{
+  list-style: none;
+}
+
+.browser{
+  opacity: 0.12;
+}
+
+.browser:hover{
+  opacity: 1;
+}
+
+.page-number{
+  width: 43px;
+  height: 43px;
+  background-color: #eeeeee;
+  display: block;
+  text-align: center;
+}
+
+.page-number:hover{
+  background-color: #dfdfdf;
+}
+
+.page-number:focus{
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  background-color: #d5d5d5;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.page-number:active{
+  background-color: #ffffff;
+  border: solid 3px #dbdbdb;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.next-page{
+  width: 260px;
+  height: 50px;
+  background-color: #eeeeee;
+  display: block;
+  text-align: center;
+}
+
+.next-page:hover{
+  background-color: #dfdfdf;
+}
+
+.next-page:focus{
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  background-color: #d5d5d5;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.next-page:active{
+  background-color: #ffffff;
+  border: solid 3px #dbdbdb;
+  color: rgba(0, 0, 0, 0.3);
+}
