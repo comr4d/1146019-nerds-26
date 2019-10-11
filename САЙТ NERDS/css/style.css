@@ -48,8 +48,8 @@ a {
   display: inline-block;
   position: relative;
   margin-right: 50px;
-  min-height: 50px;
   width: 100%;
+  min-height: 50px;
   height: 15px;
   font-size: 16px;
   font-weight: 500;
@@ -63,10 +63,10 @@ a {
 
 .nav-item a, .menu-user a {
   display: block;
+  padding-top: 25px;
   text-decoration: none;
   color: #000;
   line-height: 30px;
-  padding-top: 25px;
 }
 
 .nav-item a:hover, .menu-user a:hover {
@@ -80,10 +80,10 @@ a {
 .nav-item-active::before {
   content: "";
   position: absolute;
-  background: #fb565a;
-  height: 2px;
   width: 100%;
+  height: 2px;
   bottom: -8px;
+  background: #fb565a;
 }
 
 .main-header h1{
@@ -100,7 +100,7 @@ a {
   color: #ffffff;
 }
 
-.basket a:hover{
+.basket a:hover {
   color: #fb565a;
 }
 
@@ -113,8 +113,7 @@ a {
   border-bottom: 2px solid  #fb565a;
 }
 
-.main-slider,
-.main-header{
+.main-slider, .main-header {
   background-color: #eeeeee;
 }
 
@@ -195,26 +194,25 @@ a {
   display: flex;
   justify-content: space-around;
   width: 450px;
+  min-height: 70px;
   margin: 0;
   padding: 0;
   list-style: none;
-  min-height: 70px;
 }
 
 .nav-item a, .menu-user a {
   display: block;
-  text-decoration: none;
-  color: #000;
+  min-width: 65px;
   line-height: 30px;
   padding-top: 25px;
-  min-width: 65px;
+  text-decoration: none;
+  color: #000;
 }
 
 .menu-basket {
   position: relative;
   padding-left: 40px;
 }
-
 
 .menu-basket::after {
   content: "";
@@ -357,32 +355,32 @@ a {
 }
 
 .main {
-  margin-top: 0px;
-  position: relative;
-  flex-direction:column;
   display: flex;
+  flex-direction:column;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  position: relative;
+  margin-top: 0px;
 }
 
 .products {
-  margin-top: 75px;
-  position: relative;
   display: block;
-  margin-bottom: 80px;
+  position: relative;
   width: 1160px;
-  padding-bottom: 80px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
   border-bottom: 2px solid #eeeeee;
 }
 
 .products-list {
   display: flex;
   justify-content: space-between;
+  min-height: 170px;
   margin: 0;
   padding: 0;
   list-style: none;
-  min-height: 170px;
 }
 
 .product-item {
@@ -536,12 +534,12 @@ a {
 }
 
 .index-columns {
-  width: 1160px;
   display: flex;
   justify-content: space-between;
+  width: 1160px;
+  margin-bottom: 35px;
   background-image: none;
   background-color: transparent;
-  margin-bottom: 35px;
 }
 
 .about {
@@ -552,6 +550,8 @@ a {
 
 .about h3 {
   width: 650px;
+  margin: 0px;
+  padding-top: 45px;
   font-size: 45px;
   font-weight: 500;
   font-style: normal;
@@ -560,8 +560,6 @@ a {
   letter-spacing: normal;
   text-align: left;
   color: #000000;
-  margin: 0px;
-  padding-top: 45px;
 }
 
 .about p {
@@ -577,14 +575,14 @@ a {
 
 .about h4 {
   display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 15px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
-  margin-bottom: 16px;
-  margin-top: 16px;
 }
 
 .about li {
@@ -631,11 +629,11 @@ a {
 
 .main-table-title {
   display: block;
+  margin-top: 25px;
+  margin-bottom: 0px;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 25px;
-  margin-bottom: 0px;
 }
 
 .main-table {
@@ -643,11 +641,11 @@ a {
 }
 
 .main-table-row th {
-  font-size: 45px;
-  line-height: 10px;
   padding-top: 10px;
   padding-bottom: 30px;
   padding-right: 15px;
+  font-size: 45px;
+  line-height: 10px;
   text-align: left;
 }
 
@@ -667,11 +665,11 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 40px 30px 48px 30px;
+  margin-bottom: 0px;
   background-image: none;
   background-color: transparent;
-  margin-bottom: 0px;
   list-style: none;
- }
+}
 
 .projects-item {
   position: relative;
@@ -694,11 +692,11 @@ a {
 .projects li::after {
   content: "";
   position: absolute;
-  background: #dfdfdf;
-  height: 52px;
   width: 2px;
+  height: 52px;
   left: -45px;
   bottom: 30px;
+  background: #dfdfdf;
 }
 
 .projects-list li:first-child::after {
@@ -712,37 +710,37 @@ a {
 .map {
   position: relative;
   left: -10px;
-  margin: 0 auto;
   width: 1440px;
   height: 416px;
+  margin: 0 auto;
   background: #e9e5dc;
   background-image: url(../img/map.png);
   background-position: center;
 }
 
 .marker {
+  display: block;
   box-sizing: border-box;
   position: absolute;
   top: 69px;
   right: 349px;
-  display: block;
-  background-color: transparent;
   width: 231px;
   height: 190px;
   z-index: 30;
+  background-color: transparent;
 }
 
 .contacts {
+  display: block;
   box-sizing: border-box;
   position: absolute;
   top: 54px;
   left: 140px;
-  display: block;
-  background-color: #ffffff;
   width: 319px;
   height: 308px;
-  z-index: 30;
   padding: 40px 50px;
+  z-index: 30;
+  background-color: #ffffff;
 }
 
 .contacts h3 {
@@ -784,39 +782,87 @@ a {
   padding: 0;
 }
 
-.contacts a{
+.tel{
   color: #283136;
 }
 
 .modal {
+  display: none;
+  box-sizing: border-box;
   position: fixed;
-  z-index: 100;
   top: 50%;
   left: 50%;
+  width: 960px;
+  height: 590px;
   margin-left: -480px;
   margin-top: -300px;
   padding-bottom: 85px;
-  box-sizing: border-box;
+  z-index: 100;
   border-radius: 5px;
-  width: 960px;
-  height: 590px;
-  background-color: #fff;
-  box-shadow: -1px 12px 19px -5px #000;
-  display: none;}
+  background-color: #ffffff;
+  box-shadow: -1px 12px 19px -5px #000000;
+}
+
+.modal-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
+.modal-error {
+  animation: shake 0.6s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-2000px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
 
 .fillform {
-  box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-start;
   box-sizing: border-box;
   width: 960px;
   height: 590px;
   padding: 49px 100px 84px 100px;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
 }
 
 .fillform p {
@@ -836,19 +882,18 @@ a {
 
 .text-form {
   width: 360px;
-  margin: 0;
   margin-bottom: 10px;
 }
 
 .comment-text {
   width: 760px;
-  margin: 0;
   margin-bottom: 10px;
 }
 
 .fillform h2 {
-  width: 100%;
   position: relative;
+  width: 100%;
+  margin-top: 20px;
   font-size: 45px;
   font-weight: 500;
   font-style: normal;
@@ -857,7 +902,6 @@ a {
   letter-spacing: normal;
   text-align: left;
   color: #000000;
-  margin-top: 20px;
 }
 
 .fillform input,textarea {
@@ -897,12 +941,12 @@ a {
 
 .close-button {
   position: absolute;
-  font-size: 0;
   top: 80px;
   right: 90px;
   width: 21px;
   height: 21px;
   border: 0;
+  font-size: 0;
   background: none;
   background-image: url("../img/close-cross.svg");
   opacity: 0.3;
@@ -921,32 +965,31 @@ a {
 .button-form {
   position: absolute;
   bottom: 80px;
-  background-color: #fb565a;
   width: 260px;
   min-height: 50px;
+  background-color: #fb565a;
   border: 0;
 }
 
 .main-footer {
   display: flex;
-  margin-top: 65px;
-  padding-top: 20px;
-  background: none;
-  min-height: 217px;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0;
+  min-height: 217px;
+  padding-top: 20px;
   padding-bottom: 75px;
+  background: none;
+  margin: 0;
 }
 
 footer li a {
-  background-color: #e1e1e1;
+  display:block;
   width:80px;
   height:80px;
-  border-radius:40px;
-  display:block;
   margin-right:12px;
   text-align:center;
+  background-color: #e1e1e1;
+  border-radius:40px;
 }
 
 footer li a:hover {
@@ -959,20 +1002,20 @@ footer li a:focus {
 }
 
 .footer-social {
-  padding: 0;
   width: 265px;
-  margin: 69px 139px 69px 0px;
   min-height: 80px;
+  margin: 69px 139px 69px 0px;
+  padding: 0;
 }
 
 .social-icons {
-  align-items: center;
-  justify-content: space-around;
   display: flex;
-  margin: auto;
-  padding: 0;
+  justify-content: space-around;
+  align-items: center;
   width: 260px;
   min-height: 100px;
+  margin: auto;
+  padding: 0;
   list-style: none;
 }
 
@@ -1000,7 +1043,6 @@ footer li a:focus img {
 }
 
 .footer-discount h3 {
-  width: 545px;
   height: 35px;
   font-family: Roboto;
   font-size: 36px;
@@ -1030,8 +1072,10 @@ footer li a:focus img {
 
 .catalog-title {
   display: block;
-  width: 722px;
-  height: 43px;
+  width: 100%;
+  min-height: 245px;
+  margin-top: 0;
+  padding-top: 80px;
   font-family: Roboto;
   font-size: 55px;
   font-weight: 500;
@@ -1041,32 +1085,28 @@ footer li a:focus img {
   letter-spacing: normal;
   text-align: center;
   color: #000000;
-  min-height: 245px;
-  width: 100%;
   background-color: #eeeeee;
-  margin-top: 0;
-  padding-top: 80px;
 }
 
 .catalog-container {
-  width: 1160px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 1160px;
   margin-bottom: 60px;
 }
 
 .sorting {
-  min-height: 30px;
-  width: 100%;
   display: block;
+  width: 100%;
+  min-height: 30px;
   margin-top: 18px;
   margin-bottom: 20px;
-
 }
 
 .sorting h2 {
   display: inline-block;
+  margin-right: 35%;
   font-family: Roboto;
   font-size: 18px;
   font-weight: bold;
@@ -1076,7 +1116,6 @@ footer li a:focus img {
   letter-spacing: normal;
   text-align: left;
   color: #000000;
-  margin-right: 35%;
 }
 
 .sorting ul {
@@ -1092,6 +1131,8 @@ footer li a:focus img {
 }
 
 .sort-item a {
+  min-width: 65px;
+  margin: 0px;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -1101,8 +1142,6 @@ footer li a:focus img {
   text-align: left;
   color: rgba(0, 0, 0, 0.3);
   list-style: none;
-  margin: 0px;
-  min-width: 65px;
   cursor: pointer;
 }
 
@@ -1115,8 +1154,8 @@ footer li a:focus img {
 }
 
 .sort-item:last-child {
-  margin: 0px;
   min-width: 110px;
+  margin: 0px;
 }
 
 .sort-item-active a {
@@ -1131,10 +1170,10 @@ footer li a:focus img {
 }
 
 .arrow {
-  margin-left: 10px;
   display: inline-block;
   width: 11px;
   height: 10px;
+  margin-left: 5px;
   object-fit: contain;
   background-color: #ffffff;
   border:none;
@@ -1173,11 +1212,10 @@ fieldset {
   border: none;
 }
 
-.grid,
-.features {
-  margin-top: 20px;
+.grid, .features {
   display: block;
   width: 261px;
+  margin-top: 20px;
 }
 
 .grid ul, .features ul {
@@ -1194,11 +1232,12 @@ fieldset {
 }
 
 .filter-label {
+  display: block;
   position: relative;
+  padding-bottom: 25px;
+  padding-left: 37px;
   font-size: 16px;
   line-height: 20px;
-  display: block;
-  cursor: pointer;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -1206,8 +1245,7 @@ fieldset {
   letter-spacing: normal;
   text-align: left;
   color: #283136;
-  padding-bottom: 25px;
-  padding-left: 37px;
+  cursor: pointer;
 }
 
 .filter-label:last-child {
@@ -1388,9 +1426,6 @@ input[type=checkbox]:checked + label::before {
   list-style: none;
 }
 
-/*Секция шаблонов*/
-
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -1399,24 +1434,25 @@ input[type=checkbox]:checked + label::before {
 }
 
 .works {
-  width: 760px;
   display: block;
+  width: 760px;
 }
 
 .templates li {
   position: relative;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
   list-style: none;
 }
 
 .templates {
-  width: 760px;
-  padding-top: 50px;
-  padding-left: 0px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 760px;
+  padding-top: 50px;
+  padding-left: 0px;
 }
 
 .templates li::before {
@@ -1434,7 +1470,7 @@ input[type=checkbox]:checked + label::before {
 }
 
 .catalog-item {
-position: relative;
+  position: relative;
 }
 
 .catalog-item:hover .catalog-item-hover {
@@ -1442,34 +1478,30 @@ position: relative;
 }
 
 .catalog-item-hover {
+  display: none;
   position: absolute;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  bottom: 26px;
   height: 235px;
   width: 100%;
-  background-color: #eeeeee;
-  box-sizing: border-box;
   margin-top: 300px;
   z-index: 10;
-  bottom: 10px;
-  display: none;
+  background-color: #eeeeee;
+  box-sizing: border-box;
   cursor: pointer;
 }
 
-.catalog-item-title{
+.catalog-item-title {
   min-width: 73px;
-  min-height: 20px;
-  font-size: 18px;
-  line-height: 30px;
-  padding: 0px;
+  min-height: 30px;
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 30px;
   text-align: center;
   text-transform: uppercase;
-  min-height: 30px;
 }
 
 .catalog-discription {
@@ -1485,9 +1517,12 @@ position: relative;
   text-align: center;
 }
 
-.button-hover{
+.button-hover {
+  display: block;
   width: 200px;
   height: 50px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fb565a;
   font-family: Roboto;
   font-size: 16px;
@@ -1498,9 +1533,6 @@ position: relative;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .catalog-item-title:hover {
@@ -1514,21 +1546,21 @@ position: relative;
 .page-selector {
   display: block;
   min-height: 50px;
-  list-style: none;
   padding: 0px;
   margin: 0px;
+  list-style: none;
 }
 
 .page-number {
+  display: inline-block;
   width: 50px;
   min-height: 50px;
   vertical-align: top;
-  background-color: #eeeeee;
-  display: inline-block;
-  text-align: center;
   margin: 0px;
   margin-right: 11px;
   padding: 11px;
+  background-color: #eeeeee;
+  text-align: center;
 }
 
 .page-number a {
@@ -1552,25 +1584,23 @@ position: relative;
   color: rgba(0, 0, 0, 0.3);
 }
 
-.page-number:active{
-
+.page-number:active {
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
   background-color: #d5d5d5
-
 }
 
 .page-number:active a{
   opacity: 0.3;
 }
 
-.next-page{
+.next-page {
+  display: inline-block;
   width: 260px;
   height: 50px;
-  background-color: #eeeeee;
-  display: inline-block;
-  text-align: center;
   margin: 0px;
   padding: 11px;
+  background-color: #eeeeee;
+  text-align: center;
 }
 
 .next-page a{
@@ -1601,7 +1631,7 @@ position: relative;
 
 }
 .next-page:active a{
-   opacity: 0.3;
+  opacity: 0.3;
 }
 
 .page-current {
