@@ -43,24 +43,25 @@
       });
 
       form.addEventListener("submit", function (evt) {
-    if (!login.value || !email.value || !message.value) {
+      if (!login.value || !email.value || !message.value) {
       evt.preventDefault();
       console.log('Нужно ввести имя и электронную почту');
-      popup.classList.add("modal-error");
-    }else {
+      popup.classList.add("modal-error");}
+
+      else {
       if (isStorageSupport) {
         localStorage.setItem("login", login.value);
         localStorage.setItem("email", login.value);
-      }
-    }
-  });
+          }
+        }
+      });
 
-    window.addEventListener("keydown", function (evt) {
-    if (evt.keyCode === 27) {
+      window.addEventListener("keydown", function (evt) {
+      if (evt.keyCode === 27) {
       evt.preventDefault();
       if (popup.classList.contains("modal-show")) {
         popup.classList.remove("modal-show");
         popup.classList.remove("modal-error");
-      }
-    }
-  });
+          }
+        }
+      });
